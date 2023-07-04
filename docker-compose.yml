@@ -1,0 +1,18 @@
+﻿version: "3.2"
+services:
+
+    sqlserver:
+      image: mcr.microsoft.com/mssql/server:2017-latest
+      container_name: sqlserver
+      volumes:
+        - sqlserverdata:/var/opt/mssql
+      ports:
+        - "1433:1433"
+      environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_PID=Developer
+        - SA_PASSWORD=MyP@ssword
+
+volumes:
+  sqlserverdata:
+    external: true     

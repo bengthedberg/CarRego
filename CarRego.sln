@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B35B04FE-3FD3-4690-945A-C16129E45E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRego.Domain", "src\CarRego.Domain\CarRego.Domain.csproj", "{924C49AF-64F6-4696-A3E5-4B5C560C31CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE191823-1762-46C5-8597-0F03C74E346F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRego.Domain.UnitTests", "tests\CarRego.Domain.UnitTests\CarRego.Domain.UnitTests.csproj", "{E3D7306C-7A94-4134-8F43-106458F15E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924C49AF-64F6-4696-A3E5-4B5C560C31CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924C49AF-64F6-4696-A3E5-4B5C560C31CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924C49AF-64F6-4696-A3E5-4B5C560C31CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924C49AF-64F6-4696-A3E5-4B5C560C31CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D7306C-7A94-4134-8F43-106458F15E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D7306C-7A94-4134-8F43-106458F15E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D7306C-7A94-4134-8F43-106458F15E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D7306C-7A94-4134-8F43-106458F15E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{924C49AF-64F6-4696-A3E5-4B5C560C31CA} = {B35B04FE-3FD3-4690-945A-C16129E45E7A}
+		{E3D7306C-7A94-4134-8F43-106458F15E3C} = {DE191823-1762-46C5-8597-0F03C74E346F}
+	EndGlobalSection
+EndGlobal
