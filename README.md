@@ -1,7 +1,9 @@
 # CarRego Demonstration
 
-Implementation of [Chris Klug's Stop Using Entity Framework as DTO Provider](https://github.com/ChrisKlug/efcore-dto-demo)
+Implementation of [Chris Klug's Stop Using Entity Framework as DTO Provider](https://github.com/ChrisKlug/efcore-dto-demo) as presented in this [NDC Talk](https://www.youtube.com/watch?v=ZYfdjszs8sU)
 
+
+Further details in his [blog](https://www.fearofoblivion.com/dont-let-ef-call-the-shots)
 
 ## Running the code
 

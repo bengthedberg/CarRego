@@ -3,7 +3,7 @@ using CarRego.Domain.VehicleManagement.Exceptions;
 
 namespace CarRego.Domain.VehicleManagement;
 
-public record VIN(string Value)
+public sealed record VIN(string Value)
 {
     private static Regex VinValidationRegex = new Regex("[A-HJ-NPR-Z0-9]{17}");
 
@@ -18,7 +18,12 @@ public record VIN(string Value)
     }
 
     public static VIN Empty => new(string.Empty);
-
-
     public static bool IsValid(string value) => VinValidationRegex.IsMatch(value);
+    
+    public override string ToString()
+    {
+        return Value;
+    }
+    public override int GetHashCode() => HashCode.Combine("VIN", Value);
+    public bool Equals(VIN? other) => Value == other!.Value;
 }
